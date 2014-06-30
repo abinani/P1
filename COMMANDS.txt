@@ -1,0 +1,8 @@
+   git init
+   git status
+   git add index.html README.md COMMANDS.txt
+   git remote add github git@github.com:abinani/P1.git
+   git commit -m "First cut - p1"
+   git push github master
+   git remote add jumpstarter drsbni-pdwapn@ssh.jumpstarter.io:/var/www-git/repo.git
+   git push jumpstarter master
